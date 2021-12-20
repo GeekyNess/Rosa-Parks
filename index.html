@@ -75,6 +75,34 @@ img{
 footer{
  text-align:center;
   }
+   @media only screen and (max-width:1139px){
+     display:grid;
+     grid-template-areas:
+    "a a a a  a a a a  a a a a"
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+    "c c c c  c c c c  c c c c"
+    "c c c c  c c c c  c c c c"
+    "d d d d  d d d d  d d d d"
+    "d d d d  d d d d  d d d d"
+    "e e e e  e e e e  e e e e";
+}
+.box-1 {
+  grid-area: a;
+}
+.box-2 {
+  grid-area: b;
+   }
+   .box-3 {
+  grid-area: c;
+   }
+   .box-4 {
+  grid-area: d;
+   }
+   .box-5 {
+  grid-area: e;
+   }
 
 </style>
 <div class="container">
